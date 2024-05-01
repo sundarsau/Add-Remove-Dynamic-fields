@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+body{
+    width: 50%;
+    margin:auto;
+}
+form{
+    border: 1px solid #979090;
+    padding: 10px;
+    border-radius: 10px;
+}
