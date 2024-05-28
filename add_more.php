@@ -117,7 +117,7 @@
        $(document).on("submit","#frm", function(e){
         e.preventDefault();
         $.ajax({
-            method:"post",
+            type:"post",
             url:"create_items.php",
             data:$(this).serialize(),
             success:function(response){
